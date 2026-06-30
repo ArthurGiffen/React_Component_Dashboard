@@ -1,0 +1,25 @@
+.stats-box {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.stat {
+  background-color: #ffa726;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 6px;
+  text-align: center;
+  flex: 1;
+}
+
+.stat-num {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  margin-top: 4px;
+}
