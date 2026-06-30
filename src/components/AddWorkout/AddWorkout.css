@@ -1,0 +1,47 @@
+.add-workout {
+  background-color: #ffe082;
+  border: 1px solid #ffb300;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.add-workout h2 {
+  margin-bottom: 15px;
+  color: #e65100;
+}
+
+.form-group {
+  margin-bottom: 12px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ffb300;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  background-color: white;
+}
+
+.submit-btn {
+  background-color: #f57c00;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.submit-btn:hover {
+  background-color: #e65100;
+}
