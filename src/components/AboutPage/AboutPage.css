@@ -1,0 +1,29 @@
+.about-page {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: #ffe082;
+  border: 1px solid #ffb300;
+  border-radius: 6px;
+}
+
+.about-page h2 {
+  color: #e65100;
+  margin-bottom: 12px;
+}
+
+.about-page h3 {
+  color: #f57c00;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.about-page p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.about-page ul {
+  padding-left: 20px;
+  line-height: 2;
+}
