@@ -7,19 +7,19 @@ import AboutPage from './components/AboutPage/AboutPage';
 import './App.css';
 
 const startingWorkouts = [
-  { id: 1, name: 'Push Ups', type: 'Strength', minutes: 20, done: false },
+  { id: 1, name: 'Push Ups', type: 'Strength Training', minutes: 30, done: false },
   { id: 2, name: 'Morning Run', type: 'Cardio', minutes: 30, done: false },
-  { id: 3, name: 'Sit Ups', type: 'Strength', minutes: 15, done: true },
+  { id: 3, name: 'Sit Ups', type: 'Strength Training', minutes: 30, done: false },
 ];
 
 function App() {
-  // state 1 - which page we are on
+  // state 1 which page we are in
   const [page, setPage] = useState('home');
 
-  // state 2 - the workout list
+  // state 2 the workout list
   const [workouts, setWorkouts] = useState(startingWorkouts);
 
-  // state 3 - dark mode toggle
+  // state 3 dark mode toggle
   const [darkMode, setDarkMode] = useState(false);
 
   function addWorkout(workout) {

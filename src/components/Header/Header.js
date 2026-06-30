@@ -4,7 +4,7 @@ import './Header.css';
 function Header({ page, setPage, darkMode, setDarkMode }) {
   return (
     <div className="header">
-      <h1>💪 Workout Tracker</h1>
+      <h1>Workout Tracker</h1>
       <div className="nav">
         <button
           className={page === 'home' ? 'nav-btn active' : 'nav-btn'}
